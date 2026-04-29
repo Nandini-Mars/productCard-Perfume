@@ -16,11 +16,11 @@ const ProductCard = () => {
       <div className="description">
         <div className="category">
           <h2>PERFUME</h2>
-          <h1>Gabrielle Essence Eau De Parfum</h1>
         </div>
+        <h1>Gabrielle Essence Eau De Parfum</h1>
         <div className="product-desc">
           <p>
-            A floral, solar, and voluptuous interpretation composed by Olivier
+            A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
         </div>
@@ -31,7 +31,7 @@ const ProductCard = () => {
       </div>
       <div className="attribution">
       <footer >
-        Challenge by <u><a href="https://www.crio.do" target="blank">Crio</a></u> Coded by <u>Nandini</u>
+        <a href="https://www.crio.do" target="blank">Challenge by <u>Crio</u></a> Coded by <u>Nandini</u>
       </footer>
       </div>
     </div>
