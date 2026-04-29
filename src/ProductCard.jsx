@@ -15,7 +15,7 @@ const ProductCard = () => {
       </div>
       <div className="description">
         <div className="category">
-          <h2>PERFUME</h2>
+          <h2>Perfume</h2>
         </div>
         <h1>Gabrielle Essence Eau De Parfum</h1>
         <div className="product-desc">
@@ -29,12 +29,15 @@ const ProductCard = () => {
         <button>Add to Cart</button>
       </div >
       </div>
-      <div className="attribution">
-      <footer >
-        <a href="https://www.crio.do" target="blank">Challenge by <u>Crio</u></a> Coded by <u>Nandini</u>
-      </footer>
+      <footer>
+  <div className="attribution">
+    <a href="https://www.crio.do" target="_blank" rel="noreferrer">
+      Challenge by Crio
+    </a>{" "}
+    Coded by <u>Nandini</u>
+  </div>
+</footer>
       </div>
-    </div>
   );
 };
 
