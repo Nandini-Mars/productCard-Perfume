@@ -1,0 +1,147 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root font for rem scaling */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f2ebe3;
+}
+
+/* Container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* Card wrapper */
+.card {
+  display: flex;
+  max-width: 37.5rem; /* 600px */
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+/* Image */
+.image img {
+  width: 18.75rem; /* 300px */
+  height: 25rem;
+  object-fit: cover;
+}
+
+/* Description */
+.description {
+  background-color: #fff;
+  padding: 2rem;
+  width: 18.75rem;
+  height:25rem;
+}
+
+/* Text styles */
+.category h2 {
+  font-size: 0.75rem;
+  letter-spacing: 0.3rem;
+  color: #6c7289;
+  margin-bottom: 1rem;
+}
+
+.category h1 {
+  font-family: "Fraunces", serif;
+  font-size: 1.75rem;
+  margin-bottom: 1.25rem;
+  color: #1c232b;
+}
+
+.product-desc p {
+  font-size: 0.875rem;
+  color: #6c7289;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+/* Price */
+.price {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.sale-price {
+  font-size: 1.75rem;
+  font-family: "Fraunces", serif;
+  color: #3c8067;
+}
+
+.list-price {
+  text-decoration: line-through;
+  color: #6c7289;
+  font-size: 0.875rem;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 0.875rem;
+  background-color: #3c8067;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+button:hover {
+  background-color: rgb(60, 128, 103);
+}
+
+/* Footer */
+.attribution {
+  position: absolute;
+  bottom: 0.625rem;
+  font-size: 0.75rem;
+  color: #6c7289;
+}
+
+/* ========================= */
+/* 📱 Mobile Responsive */
+/* ========================= */
+
+@media (max-width: 37.5rem) {
+  .card {
+    flex-direction: column;
+    max-width: 21.5rem;
+  }
+
+  .image img {
+    width: 100%;
+    height: 15rem;
+  }
+
+  .description {
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  .category h1 {
+    font-size: 1.5rem;
+  }
+
+  .sale-price {
+    font-size: 1.5rem;
+  }
+}
